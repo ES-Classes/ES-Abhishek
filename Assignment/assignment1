@@ -1,0 +1,17 @@
+let PrabinMass = 78;
+let RamMass = 92;
+let PrabinHeight = 1.7;
+let RamHeight = 1.92;
+
+const PrabinBMI = PrabinMass / (PrabinHeight * PrabinHeight)
+const RamBMI = RamMass / (RamMass * RamMass)
+
+let PrabinHigherBMI = PrabinBMI > RamBMI == true;
+
+console.log(PrabinBMI);
+console.log(RamBMI);
+
+console.log(PrabinHigherBMi);
+
+
+
