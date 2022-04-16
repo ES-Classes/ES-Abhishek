@@ -1,0 +1,30 @@
+//first round
+let nepalA=[46,58,39];
+let nepalB=[48,41,60];
+
+let averageA=(nepalA[0]+nepalA[1]+nepalA[2])/3;
+
+let averageB;
+averageB=(nepalB[0]+nepalB[1]+nepalB[2])/3;
+
+console.log(averageA);
+console.log(averageB);
+
+if (averageA>averageB)
+{
+    console.log("nepalA is winner of the tournament");
+
+}
+else 
+{
+console.log("nepalB is winner of the tournament");
+}
+
+if(averageA >=50 && nepalA[3]>=50)
+{
+    console.log("NepalA is winner");
+}
+else
+{
+    console.log("NepalB is winner");
+}
